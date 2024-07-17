@@ -157,3 +157,55 @@ margin-left: -120px;
   color: rgba(255, 255, 255, 0.65);  
 }
 /* banner section ends */
+
+/* habit section start */
+.habit-section{
+  width: 1044px;
+  height: 452px; 
+  margin: 0 auto;
+}
+.habit-title-section{
+ display: flex; 
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+}
+.habit-title-section h3{
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);  
+}
+.habit-title-section p{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);  
+  margin-top: 15px;
+}
+.habit-img-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap:60px;
+
+}
+.habit-img-section img{
+border-radius: 50%;  
+}
+.habit-img-section h5{
+ text-align: center; 
+ margin-right: 40px;
+ margin-top: 9px;
+ color: white;
+ font-size: 18px;
+}
+.habit-img-section p{
+font-size: 14px;
+ font-weight: 400; 
+text-align: center;  
+color:rgba(255, 255, 255, 0.5) ;
+margin-top: 20px;
+}
+
+/* habit section end */
