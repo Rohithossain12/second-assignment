@@ -602,6 +602,83 @@
 
 /* Ends Our team Section Related Styles */
 
+/* Footer Section Related styles */
+
+.footer-section {
+  width: 100%;
+  height: 34%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 88px;
+}
+
+.footer-container {
+  width: 73.54%;
+  height: 19.3%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text-content {
+  width: 50%;
+  height: 12.22%;
+  margin-top: 60px;
+}
+.footer-text-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.footer-service-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 156px;
+}
+.footer-service-section h5 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footer-service-section p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 15px;
+}
+
+.copy-right {
+  width: 73.54%;
+  margin: 0 auto;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.copy-right h5 {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  margin-top: 30px;
+  padding: 0 0 20px 0;
+}
+
+/* Ends Footer Section Related styles */
+
 /* Responsive For Small Device */
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
@@ -618,7 +695,7 @@
   }
 
   .banner-text-content h3 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
   .banner-text-content .btn-1 {
     width: 112px;
@@ -802,5 +879,26 @@
   }
   .our-team-section-container h5 {
     font-size: 1.15rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-text-content {
+    width: 90%;
+  }
+  .footer-text-content h3 {
+    font-size: 3rem;
+  }
+  .footer-service-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  .footer-service-section h5 {
+    font-size: 1.2rem;
   }
 }
