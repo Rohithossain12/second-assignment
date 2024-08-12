@@ -69,6 +69,150 @@
 
 /* ends Navbar Related styles */
 
+/* Banner Section Styles */
+.banner-container {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+
+.banner-section {
+  width: 75%;
+  height: 40.27%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.banner-text-content {
+  padding-top: 40px;
+}
+.banner-text-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 4.87rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner-text-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 28px;
+}
+
+.btn-1 {
+  position: static;
+  width: 220px;
+  height: 50px;
+  border-radius: 42px;
+  border: none;
+  margin-top: 44px;
+  padding: 16px 40px 16px 40px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  background: rgb(230, 83, 60);
+}
+
+.btn-2 {
+  position: static;
+  width: 220px;
+  height: 50px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.card-1 {
+  position: absolute;
+  width: 170px;
+  height: 80px;
+  gap: 10px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  margin-top: -180px;
+  margin-left: -40px;
+}
+
+.card-1 i {
+  width: 30px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(230, 83, 60);
+  color: white;
+}
+.card-1 h5 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(250, 250, 249);
+  margin-bottom: 5px;
+  line-height: 24px;
+}
+.card-1 p {
+  font-size: 1rem;
+  color: rgba(239, 237, 232, 0.65);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.card-2 {
+  position: absolute;
+  width: 170px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: -455px;
+  margin-left: 220px;
+}
+
+.card-2 h5 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 40px;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.card-2 p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 5px;
+}
+
+/* Ends banner Section */
+
 /* Responsive For Small Device */
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
@@ -77,5 +221,62 @@
   }
   .nav-option p {
     display: none;
+  }
+
+  .banner-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-text-content h3 {
+    font-size: 3.2rem;
+  }
+  .banner-text-content .btn-1 {
+    width: 112px;
+    height: 45px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+  }
+  .banner-text-content .btn-2 {
+    width: 112px;
+    height: 45px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+  }
+  .banner-img-content {
+    position: relative;
+  }
+  .banner-img-content img {
+    width: 80%;
+    margin-top: 64px;
+  }
+  .card-1 {
+    width: 150px;
+    height: 65px;
+    position: absolute;
+    margin-left: 20px;
+    display: flex;
+  }
+  .card-1 h5 {
+    font-size: 1rem;
+  }
+  .card-1 p {
+    font-size: 0.7rem;
+  }
+  .card-2 {
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 520px;
+    right: 20px;
+  }
+  .card-2 h5 {
+    font-size: 1.5rem;
+  }
+  .card-2 p {
+    font-size: 0.6rem;
+    margin-top: -4px;
   }
 }
